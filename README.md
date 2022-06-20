@@ -1,4 +1,4 @@
-# fallout4-hacking-minigame
+# The Fallout 4 Hacking Minigame
 The Terminal Hacking Minigame from Fallout 4 (in YOUR terminal) made in C language.
 
 ## Preview
