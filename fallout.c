@@ -48,10 +48,10 @@ int main() {
 
     green();
     delay_print("ROBCO INDUSTRIES (TM) TERMLINK PROTOCOL");
-    wait(WAIT_TIME*8);
+    waiting(WAIT_TIME*8);
     printf("\n");
     delay_print("PASSWORD REQUIRED");
-    wait(WAIT_TIME*12);
+    waiting(WAIT_TIME*12);
     printf("\n");
     printf("\n");
     
@@ -92,7 +92,7 @@ int main() {
         }
         if(like == 4) {
             printf(">Exact match!\nPlease wait while system is accessed.\n");
-            wait(WAIT_TIME*20);
+            waiting(WAIT_TIME*20);
         }
         if(lives == 1) {
             printf(">!!! WARNING: LOCKOUT IMINENT !!!\n");
