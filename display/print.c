@@ -3,7 +3,7 @@
 
 int count_wrd_print = 0;
 
-void wait(int time) {
+void waiting(int time) {
     fflush(stdout);
     usleep(time);
 }
@@ -97,10 +97,10 @@ void printRandomChars(char list_words[][5]) {
 }
 
 void printBloc(char list_words[][5]) {
-    wait(WAIT_TIME);
+    waiting(WAIT_TIME);
     printAddress();
     printf("  ");
-    wait(WAIT_TIME);
+    waiting(WAIT_TIME);
     printRandomChars(list_words);
-    wait(WAIT_TIME);
+    waiting(WAIT_TIME);
 }
